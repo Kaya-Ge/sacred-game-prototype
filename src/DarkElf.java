@@ -7,11 +7,10 @@ public class DarkElf extends ForestElf {
     boolean isGirl; // нужно ли мне здесь было копировать поля?
     int damage = 5; // можно ли здесь не задавать значения полей, ведь они есть в классе-родителе
     int magicLevel;
-    int concentration = 8;
+    int concentration;
     public DarkElf(String name, boolean isGirl, int concentration) {
         super(name, isGirl);
         this.concentration = concentration;
-
     }
 
     @Override
